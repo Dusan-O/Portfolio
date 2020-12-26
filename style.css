@@ -196,7 +196,8 @@ a:visited
     border: 1px black solid;
     border-radius: 15px;
     padding: 30px;
-    margin-bottom: 50px;
+    margin: 50px auto;
+    
 }
 
 #logo

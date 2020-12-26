@@ -107,7 +107,8 @@ a:visited
 
 *
 {
-    box-sizing: border-box;
+    box-sizing: 900px;;
+    
 }
 
 .separator
@@ -123,6 +124,64 @@ a:visited
 {
     width: 80%;
     margin: auto;
+    display: flex;
+}
+
+.projet
+{
+    width: 400px;
+    margin: 30px;
+    display: inline-block;
+    background: white;
+    padding-bottom: 15px;
+    border: 0px black solid;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+
+.projet:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    transition: 0.3s;
+  }
+
+.projet img
+{
+    min-width:400px;
+    height: 266px;
+}
+
+.projet .titre_projet
+{
+    font-size: 0.7em;
+    text-transform: uppercase;
+}
+
+.projet span
+{
+    text-transform: uppercase;
+    display: block;
+}
+
+.picture
+{
+    width: 400px;
+    height: 266px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.projet .date_projet
+{
+    text-transform: uppercase;
+    font-size: 0.8em;
+}
+
+#projets
+{
+    display: flex;
+    flex-wrap: wrap;
 }
 
 #contact

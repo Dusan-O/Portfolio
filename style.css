@@ -121,7 +121,8 @@ a:visited
 
 .conteneur
 {
-
+    width: 80%;
+    margin: auto;
 }
 
 #contact

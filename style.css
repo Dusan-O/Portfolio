@@ -69,6 +69,11 @@ h3
     text-transform: uppercase;
 }
 
+footer, a
+{
+    font-weight: bold;
+}
+
 h3:after
 {
     content:" »";
@@ -156,7 +161,7 @@ a:visited
 
 .projet .titre_projet
 {
-    font-size: 0.7em;
+    font-size: 1.2em;
     text-transform: uppercase;
 }
 
